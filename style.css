@@ -1,0 +1,66 @@
+#myItem1.ldBar path.mainline {
+  stroke-width: 4;
+  stroke: #7b7de4;
+  /* stroke-linecap: round; */
+}
+#myItem1.ldBar path.baseline {
+  stroke-width: 4;
+  stroke: #f3f2fc;
+  /* stroke-linecap: round; */
+  /* filter: url(#custom-shadow); */
+}
+
+#myItem2.ldBar path.mainline {
+  stroke-width: 4;
+  stroke: #3dd599;
+  /* stroke-linecap: round; */
+}
+#myItem2.ldBar path.baseline {
+  stroke-width: 4;
+  stroke: #edfbf5;
+  /* stroke-linecap: round; */
+  /* filter: url(#custom-shadow); */
+}
+
+#myItem3.ldBar path.mainline {
+  stroke-width: 4;
+  stroke: #ff974a;
+  /* stroke-linecap: round; */
+}
+#myItem3.ldBar path.baseline {
+  stroke-width: 4;
+  stroke: #fef5ee;
+  /* stroke-linecap: round; */
+  /* filter: url(#custom-shadow); */
+}
+
+.ldBar-label {
+  color: ##000;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.circle-wrapper {
+  display: flex;
+  background: #ffffff;
+  border-radius: 16px;
+  width: 800px;
+  padding: 24px;
+  justify-content: space-around;
+}
+
+body {
+  font-family: "Lato";
+  background: #fbfbfd;
+  padding: 50px;
+}
+
+.circle-chart-header {
+  width: 100%;
+}
+p {
+  margin: 0;
+}
+.middle-line {
+  border-top: 1px solid #f1f1f6;
+}
